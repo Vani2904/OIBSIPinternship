@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio using navbar</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand logo" href="#">V.</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link text-white active" href="#homeSection">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="#aboutMeSection">About Me</a>
+                <a class="nav-link text-white" href="#projectSection">Projects</a>
+                <a class="nav-link text-white" href="#skillsSection">Skills</a>
+                <a class="nav-link text-white" href="#certificateSection">Certificates</a>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-container d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-md-2 pt-5">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class ="image1" />
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center">
+                    <h1 class="head">Hey, I am <span style="color:olivedrab;">Vanitha Lakshmanan</span></h1>
+                    <p class="para  mt-3">I am an Aspriring Full Stack Developer</p>
+                    <a class="button text-center pt-2" href="#sectionFooterPage">Contact Me</a>
+                </div>
+            </div >
+
+        </div>
+    </div>
+                <div  class = "shadow card-container pt-3 mt-3" id = "aboutMeSection">
+                    <h1 class = "heading1">About Me</h1>
+                    <ul>
+                    <li class = "para1">My name is Vanitha Lakshmanan, and I am currently looking for a Job in Frontend Develeopment. Peope find me to be an upbeat, self-motivated team player with excellent communication skills.</li>
+                    <li class = "para1 pt-2">I am a dedicated person with a family of four. I enjoy reading, and the knowledge and perspecive that my reading gives me have strengthened my teaching skills and presentation abilities.</li>
+                </ul>
+                </div>
+           
+            <div class = "shadow card-container pt-3 mt-3" id = "projectSection" >
+                <h1 class = "heading1">Project</h1>
+                <ul>
+                <li class = "description1">Food webpage using html-css</li>
+                <li class = "description1 pt-2">TipCalculator using html - css - Js</li>
+                <li class = "description1 pt-2">MySQL Database Connectivity in Python - Insert, Update, Delete in python with sql.</li>
+            </ul>
+            </div>
+
+            <div class = "shadow card-container pt-3 mt-3" id = "skillsSection">
+                <h1 class = "heading1">Skills</h1>
+                <ul>
+                <li class = "description1">Website Development - HTML, CSS, Javascript.</li>
+                <li class = "description1 pt-2">SQL Programming</li>
+                <li class = "description1 pt-2">Python Programming </li>
+            </ul>
+            </div>
+            <div class = "shadow card-container pt-3 mt-3" id = "certificateSection">
+                <h1 class = "heading1">Certification</h1>
+                <ul>
+                <li class = "description1">Introduction to Database</li>
+                <li class = "description1 pt-2">Build Your Own Static Website </li>
+                <li class = "description1 pt-2">Build Your Own Responsive Website  </li>
+            </ul>
+            </div>
+
+            </div>
+            <div  id = "sectionFooterPage" class="footer-section pt-5 mt-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-3 d-flex flex-row justify-content-start">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="image" />
+                            <div>
+                                <h1 class="heading">Vanitha Lakshmanan</h1>
+                                <p class="paragraph">Aspiring Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="col-12 col-md-3">
+                                <h1 class="heading">Phone No.</h1>
+                                <div class="pt-2 d-flex flex-row">
+                                    
+                                    <p class="paragraph">9790569903</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <h1 class="heading">E-mail</h1>
+                            <div class=" d-flex flex-row">
+                                
+                                <p class="paragraph">vanilakshmanan2904@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <h1 class="heading">Address</h1>
+                            <div class="d-flex flex-row">
+                               
+                                <p class="paragraph">53/Pallakattum Thootam, modakurichi,Erode.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+        
+</body>
+</html>
